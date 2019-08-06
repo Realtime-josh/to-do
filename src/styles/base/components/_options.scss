@@ -1,0 +1,75 @@
+.options{
+  text-align: center;
+  background: black;
+  color:$brand-foreground;
+  padding-bottom: 0.9rem;
+}
+
+.remove__button{
+  margin:0.9rem 0rem;
+  padding: 0.8rem;
+  background:$brand-header-color;
+  color:$brand-foreground;
+  border:none;
+  border-radius: 2%;
+  width:30%;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-family: $brand-font;
+}
+
+.remove__button:hover{
+  color:#706969;
+}
+.options__list{
+  // display: -moz-box;
+  // display: -webkit-box;
+  // display: -o-box;
+  // display: box;
+  // display: -ms-flexbox;
+
+  // -moz-box-orient: horizontal;
+  // -webkit-box-orient: horizontal;
+  // flex-wrap:wrap;
+  // box-align: start;
+  background: $brand-header-color;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.options__table{
+  width:99%;
+  padding: 1%;
+}
+
+.options__table .options_table_row .options_table_data{
+  text-align:left;
+  width:50%;
+}
+
+.options__table .options_table_row .options__remove{
+  text-align: right;
+  width:30%;
+}
+
+.options__remove-single{
+  background:$brand-header-color;
+  color:#b6acac;
+  border:none;
+}
+
+.options__remove-single:hover{
+  color:#706969;
+}
+
+
+@media screen and (max-width: 600px) {
+  .remove__button{
+    width:90%;
+  }
+  .options__list{
+    width:95%;
+  }
+}

@@ -1,0 +1,30 @@
+.header{
+  background:$brand-header-color;
+  color: white;
+  margin: 0 0 0rem;
+  padding: 0.2rem 0;
+  text-align: center;
+}
+
+.header__title{
+  font-size:2.8rem;
+  font-family: sans-serif sans-serif;
+  // margin-top:1rem;
+  padding:0;
+  margin:0;
+}
+
+.header__subtitle{
+  font-size:0.84rem;
+  font-family: sans-serif 'Segoe UI';
+}
+
+@media screen and (max-width: 600px) {
+  .header__title{
+    font-size: 1.7rem;
+  }
+
+  .header__subtitle{
+    font-size:0.76rem;
+  }
+}

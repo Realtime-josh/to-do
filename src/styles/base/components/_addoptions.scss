@@ -1,0 +1,58 @@
+.addoptions{
+  text-align: center;
+  background: $brand-foreground;
+  padding: 2rem;
+  font-family: $brand-font;
+}
+
+.addoptions__inputfield{
+  border:none;
+  width:35%;
+  height: 2.5rem;
+  background: #ccccce;
+}
+
+.addoptions__button{
+  padding: 0rem;
+  background: #332c9b;
+  color:$brand-foreground;
+  border:none;
+  border-radius: 2%;
+  width:10%;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  font-family: $brand-font;
+}
+
+@media screen and (max-width: 1090px) {
+  .addoptions{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+    display: box;
+    display: -ms-flexbox;
+
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    flex-wrap:wrap;
+    box-align: start;
+  }
+  .addoptions__inputfield{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+    display: box;
+    display: -ms-flexbox;
+    width:95%;
+  }
+
+  .addoptions__button{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+    display: box;
+    display: -ms-flexbox;
+    width:95%;
+    }
+  }
+

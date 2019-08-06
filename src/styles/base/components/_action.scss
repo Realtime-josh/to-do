@@ -1,0 +1,31 @@
+.action{
+  text-align: center;
+  background: $brand-foreground;
+  padding: 2rem;
+  font-family: $brand-font;
+}
+
+.action__button{
+  padding: 0.8rem;
+  background: #332c9b;
+  color:$brand-foreground;
+  border:none;
+  border-radius: 2%;
+  width:50%;
+  height: 3.5rem;
+  font-size: 2.2rem;
+  font-family: $brand-font;
+}
+
+.action__button:hover{
+  background: #8d85f7;
+}
+
+@media screen and (max-width: 600px) {
+  .action__button{
+    width:90%;
+    font-size: 1.5rem;
+  }
+}
+
+
